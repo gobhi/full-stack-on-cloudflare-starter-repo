@@ -107,9 +107,9 @@ function RouteComponent() {
                     {header.isPlaceholder
                       ? null
                       : flexRender(
-                          header.column.columnDef.header,
-                          header.getContext(),
-                        )}
+                        header.column.columnDef.header,
+                        header.getContext(),
+                      )}
                   </TableHead>
                 ))}
               </TableRow>
@@ -162,7 +162,7 @@ function RouteComponent() {
           to{" "}
           {Math.min(
             (table.getState().pagination.pageIndex + 1) *
-              table.getState().pagination.pageSize,
+            table.getState().pagination.pageSize,
             table.getFilteredRowModel().rows.length,
           )}{" "}
           of {table.getFilteredRowModel().rows.length} entries
