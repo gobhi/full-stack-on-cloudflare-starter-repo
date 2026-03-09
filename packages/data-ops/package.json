@@ -27,6 +27,10 @@
       "types": "./dist/durable-objects-helpers/*.d.ts",
       "default": "./dist/durable-objects-helpers/*.js"
     },
+    "./schema": {
+      "types": "./dist/drizzle-out/schema.d.ts",
+      "default": "./dist/drizzle-out/schema.js"
+    },
     "./auth": {
       "types": "./dist/better-auth/auth.d.ts",
       "default": "./dist/better-auth/auth.js"
