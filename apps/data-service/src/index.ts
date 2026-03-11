@@ -4,6 +4,7 @@ import { initDatabase } from '@repo/data-ops/database';
 import { handleLinkClick } from './queue-handlers/link-clicks';
 import { QueueMessageSchema } from '@repo/data-ops/zod-schema/queue';
 
+export { EvaluationScheduler } from "@/durable-objects/evaluation-scheduler";
 export { DestinationEvaluationWorkflow } from '@/workflows/destination-evalutation-workflow';
 
 
