@@ -4,6 +4,9 @@ import { initDatabase } from '@repo/data-ops/database';
 import { handleLinkClick } from './queue-handlers/link-clicks';
 import { QueueMessageSchema } from '@repo/data-ops/zod-schema/queue';
 
+export { DestinationEvaluationWorkflow } from '@/workflows/destination-evalutation-workflow';
+
+
 export default class DataService extends WorkerEntrypoint<Env> {
 
 	constructor(ctx: ExecutionContext, env: Env) {
