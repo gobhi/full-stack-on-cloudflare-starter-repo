@@ -5,6 +5,7 @@ import { handleLinkClick } from './queue-handlers/link-clicks';
 import { QueueMessageSchema } from '@repo/data-ops/zod-schema/queue';
 
 export { EvaluationScheduler } from "@/durable-objects/evaluation-scheduler";
+export { LinkClickTracker } from "@/durable-objects/link-click-tracker";
 export { DestinationEvaluationWorkflow } from '@/workflows/destination-evalutation-workflow';
 
 
